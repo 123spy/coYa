@@ -36,57 +36,41 @@
     </TextView>
 
     <!--body-->
-    <androidx.cardview.widget.CardView
-        android:layout_gravity="center_horizontal"
+    <Button
+        android:id="@+id/image_button"
         android:layout_width="280sp"
         android:layout_height="73sp"
-        android:layout_marginTop="50sp"
-        >
-        <TextView
-            android:textSize="25sp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:background="@drawable/shape_gradient"
-            android:textStyle="bold"
-            android:text="智能模块">
-        </TextView>
-    </androidx.cardview.widget.CardView>
+        android:layout_marginTop="70sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="@drawable/shape_gradient"
+        android:text="智能算法">
+    </Button>
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/image_card"
-        android:layout_gravity="center_horizontal"
+    <Button
+        android:id="@+id/ai_button"
         android:layout_width="280sp"
         android:layout_height="73sp"
         android:layout_marginTop="30sp"
-        >
-        <TextView
-            android:textSize="25sp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:background="@drawable/gradient_o_r"
-            android:textStyle="bold"
-            android:text="图片处理">
-        </TextView>
-    </androidx.cardview.widget.CardView>
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="@drawable/gradient_o_r"
+        android:text="图片算法">
+    </Button>
 
-    <androidx.cardview.widget.CardView
-        android:layout_gravity="center_horizontal"
+    <Button
+        android:id="@+id/tools_button"
         android:layout_width="280sp"
         android:layout_height="73sp"
         android:layout_marginTop="30sp"
-        >
-        <TextView
-            android:textSize="25sp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:background="#68848B"
-            android:textStyle="bold"
-            android:text="工具合集">
-        </TextView>
-    </androidx.cardview.widget.CardView>
+        android:layout_gravity="center"
+        android:background="#68848B"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="工具集合">
+    </Button>
 
     <!--footer-->
     <TextView
