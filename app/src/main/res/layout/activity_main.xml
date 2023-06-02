@@ -37,7 +37,7 @@
 
     <!--body-->
     <Button
-        android:id="@+id/image_button"
+        android:id="@+id/ai_button"
         android:layout_width="280sp"
         android:layout_height="73sp"
         android:layout_marginTop="70sp"
@@ -49,7 +49,7 @@
     </Button>
 
     <Button
-        android:id="@+id/ai_button"
+        android:id="@+id/image_button"
         android:layout_width="280sp"
         android:layout_height="73sp"
         android:layout_marginTop="30sp"

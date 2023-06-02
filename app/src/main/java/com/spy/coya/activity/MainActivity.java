@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         aiButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ImageActivity.class);
+                Intent intent = new Intent(MainActivity.this, AiActivity.class);
                 startActivity(intent);
             }
         });
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "点击了", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(MainActivity.this, "点击了", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, ImageActivity.class);
                 startActivity(intent);
             }
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         toolsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ImageActivity.class);
+                Intent intent = new Intent(MainActivity.this, ToolActivity.class);
                 startActivity(intent);
             }
         });
